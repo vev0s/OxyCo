@@ -11,7 +11,7 @@ mainOption = """
  [1] Encode
  [2] Decode
  
- [e] Exit script	[c] Clear screen    [h] Help Message
+ [e] Exit script	[c] Clear screen	[h] Help Message
 
 """
 encodeOption = """
@@ -53,5 +53,5 @@ try:
 			print(mainOption)
 
 except KeyboardInterrupt:
-    sys.exit(Fore.RED + "\nHave a good day ! :)")
-    print(Style.RESET_ALL)
+	sys.exit(Fore.RED + "\nHave a good day ! :)")
+	print(Style.RESET_ALL)
