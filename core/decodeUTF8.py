@@ -20,7 +20,7 @@ decodeOption = """
 """
 
 
-def decodeUTF8():
+def decodeUTF8():‡
 	inputO = input("Type your message : ")
 	print()
 
