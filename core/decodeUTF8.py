@@ -21,7 +21,7 @@ decodeOption = """
 
 
 def decodeUTF8():
-	inputO = input("You message : ")
+	inputO = input("Type your message : ")
 	print()
 
 	slicedInput = [inputO[i:i+2] for i in range(0, len(inputO), 2)]

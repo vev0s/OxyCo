@@ -20,7 +20,7 @@ encodeOption = """
 """
 
 def encodeUTF8():
-	inputO = input("Your message : ")
+	inputO = input("Type your message : ")
 	print()
 
 	slicedInput = list(inputO)

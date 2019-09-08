@@ -44,10 +44,12 @@ try:
 			sys.exit(Fore.RED + "\nHave a good day ! :)")
 			print(Style.RESET_ALL)
 		elif choice.lower() == '1':
+			clear()
 			encode()
 			print(header1)
 			print(mainOption)
 		elif choice.lower() == '2':
+			clear()
 			decode()
 			print(header1)
 			print(mainOption)
