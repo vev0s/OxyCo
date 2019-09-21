@@ -12,3 +12,4 @@ def checkVersion():
 		pass
 	else:
 		sys.exit(warning+" Veuillez lancer la version 3 de python.")
+		
