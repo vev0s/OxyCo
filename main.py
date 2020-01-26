@@ -1,8 +1,8 @@
 import sys, time, random
 
 from colorama import Fore, Back, Style
-from core.encodeUTF8 import *
-from core.decodeUTF8 import *
+from core.encode import *
+from core.decode import *
 from core.headers import *
 from lib.functions import *
 
@@ -17,7 +17,7 @@ mainOption = """
 encodeOption = """
 
  [1] UTF-8
- [2] ASCII
+ [2] Cesar
 
 """
 decodeOption = """
